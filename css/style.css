@@ -1,3 +1,42 @@
+#header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(186, 186, 179);
+  padding-top: 20px 0;
+  color: rgb(56, 51, 46);
+  font-size: larger;
+  font-family: "PT Serif", serif;
+  text-decoration: solid;
+  justify-content: center;
+}
+#header nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+#header nav .menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+#header nav .menu li a {
+  text-decoration: none;
+  color: rgb(56, 51, 46);
+}
+#header nav .menu .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+#header nav .menu .logo .logo-nav {
+  display: flex;
+  height: 50px;
+}
 
+/* variables */
 
 /*# sourceMappingURL=style.css.map */
